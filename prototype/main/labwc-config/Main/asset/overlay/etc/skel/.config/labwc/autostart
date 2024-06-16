@@ -30,7 +30,7 @@ swaybg -c '#113344' >/dev/null 2>&1 &
 ## ## polkit
 ##
 
-/usr/libexec/xfce-polkit
+/usr/libexec/xfce-polkit &
 
 
 

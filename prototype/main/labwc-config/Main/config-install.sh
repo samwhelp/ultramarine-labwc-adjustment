@@ -4,39 +4,39 @@ set -e
 
 
 ################################################################################
-### Head: wayfire
+### Head: labwc
 ##
 
-wayfire_config_run_pre () {
+labwc_config_run_pre () {
 
-	wayfire_service_stop
-
-
-	return 0
-
-}
-
-wayfire_config_run_post () {
-
-	wayfire_service_start
+	labwc_service_stop
 
 
 	return 0
 
 }
 
-wayfire_service_stop () {
+labwc_config_run_post () {
 
-	wayfire_service_stop_xfconfd
-
-	#wayfire_service_stop_xfsettingsd
+	labwc_service_start
 
 
 	return 0
 
 }
 
-wayfire_service_stop_xfconfd () {
+labwc_service_stop () {
+
+	labwc_service_stop_xfconfd
+
+	#labwc_service_stop_xfsettingsd
+
+
+	return 0
+
+}
+
+labwc_service_stop_xfconfd () {
 
 	if killall -9 xfconfd; then
 		return 0
@@ -47,7 +47,7 @@ wayfire_service_stop_xfconfd () {
 
 }
 
-wayfire_service_stop_xfsettingsd () {
+labwc_service_stop_xfsettingsd () {
 
 	if killall -9 xfsettingsd; then
 		return 0
@@ -58,30 +58,30 @@ wayfire_service_stop_xfsettingsd () {
 
 }
 
-wayfire_service_start () {
+labwc_service_start () {
 
 
 	return 0
 
 }
 
-wayfire_config_install () {
+labwc_config_install () {
 
 	echo
 	echo "##"
-	echo "## Config: wayfire"
+	echo "## Config: labwc"
 	echo "##"
 	echo
 
 
-	wayfire_config_install_by_dir
+	labwc_config_install_by_dir
 
 
 	echo
 
 }
 
-wayfire_config_install_by_dir () {
+labwc_config_install_by_dir () {
 
 
 	echo
@@ -97,7 +97,7 @@ wayfire_config_install_by_dir () {
 }
 
 ##
-### Tail: wayfire
+### Tail: labwc
 ################################################################################
 
 
@@ -107,11 +107,11 @@ wayfire_config_install_by_dir () {
 
 main_config_install () {
 
-	wayfire_config_run_pre
+	labwc_config_run_pre
 
-	wayfire_config_install
+	labwc_config_install
 
-	wayfire_config_run_post
+	labwc_config_run_post
 
 }
 

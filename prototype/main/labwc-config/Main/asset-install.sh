@@ -4,14 +4,14 @@ set -e
 
 
 ################################################################################
-### Head: wayfire
+### Head: labwc
 ##
 
-wayfire_asset_install () {
+labwc_asset_install () {
 
 	echo
 	echo "##"
-	echo "## Asset: wayfire"
+	echo "## Asset: labwc"
 	echo "##"
 	echo
 
@@ -25,7 +25,7 @@ wayfire_asset_install () {
 
 
 ##
-### Tail: wayfire
+### Tail: labwc
 ################################################################################
 
 
@@ -35,7 +35,7 @@ wayfire_asset_install () {
 
 main_asset_install () {
 
-	wayfire_asset_install
+	labwc_asset_install
 
 }
 
