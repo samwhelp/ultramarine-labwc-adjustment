@@ -18,7 +18,16 @@
 | [~/.config/labwc/environment](./asset/overlay/etc/skel/.config/labwc/environment) |
 
 
-### Wayfire
+### Wallpaper
+
+> for [hyprpaper](https://packages.fedoraproject.org/pkgs/hyprpaper/hyprpaper/)
+
+| Config File Path |
+| --- |
+| [~/.config/hypr/hyprpaper.conf](./asset/overlay/etc/skel/.config/hypr/hyprpaper.conf) |
+
+
+> for `wf-background`
 
 | Config File Path |
 | --- |

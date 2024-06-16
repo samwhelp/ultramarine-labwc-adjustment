@@ -12,17 +12,19 @@
 ##
 
 labwc
-
-
-
-
-##
-## ## Package / Wayfire
-##
-
-#wayfire
-wf-shell
 wlogout
+
+
+
+
+##
+## ## Package / Wallpaper
+##
+
+hyprpaper
+#swaybg
+#azote
+#wf-shell
 
 
 
