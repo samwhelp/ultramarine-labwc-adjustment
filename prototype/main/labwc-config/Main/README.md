@@ -75,6 +75,11 @@
 | [wlogout](https://packages.fedoraproject.org/pkgs/wlogout/wlogout/) |
 
 
+## Manual
+
+* [labwc-config](https://labwc.github.io/labwc-config.5.html)
+
+
 
 
 ## Usage
