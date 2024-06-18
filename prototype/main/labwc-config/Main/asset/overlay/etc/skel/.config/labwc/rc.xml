@@ -324,6 +324,18 @@ default values.
 		<keybind key="A-C-bracketright">
 			<action name="Execute" command="brightnessctl set +1%" />
 		</keybind>
+		<keybind key="Print">
+			<action name="Execute" command="grimshot save screen" />
+		</keybind>
+		<keybind key="A-Print">
+			<action name="Execute" command="grimshot save anything" />
+		</keybind>
+		<keybind key="W-Print">
+			<action name="Execute" command="grimshot save active" />
+		</keybind>
+		<keybind key="C-Print">
+			<action name="Execute" command="grimshot save area" />
+		</keybind>
 		<!-- SnapToRegion via W-Numpad -->
 		<!--
 		<keybind key="W-KP_7"><action name="SnapToRegion" region="top-left" /></keybind>
