@@ -30,6 +30,41 @@ hyprpaper
 
 
 ##
+## ## Package / Volume Control
+##
+
+
+##
+## > for command `mate-volume-control`
+##
+
+mate-media
+
+
+##
+## > for command `pavucontrol`
+##
+
+pavucontrol
+
+
+##
+## > for command `pamixer`
+##
+
+pamixer
+
+
+##
+## > for command `amixer`
+##
+
+#alsamixergui
+
+
+
+
+##
 ## ## Package / Theme / Papirus
 ##
 
