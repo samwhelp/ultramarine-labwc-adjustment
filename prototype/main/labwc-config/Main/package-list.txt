@@ -35,7 +35,7 @@ hyprpaper
 
 
 ##
-## > for command `mate-volume-control`
+## > for command `mate-volume-control` or `mate-volume-control-status-icon`
 ##
 
 mate-media
