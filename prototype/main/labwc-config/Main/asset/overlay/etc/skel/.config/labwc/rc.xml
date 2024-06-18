@@ -87,6 +87,7 @@ default values.
 			</names>
 		</desktops>
 	-->
+
 	<desktops>
 		<!--
 			popupTime defaults to 1000 so could be left out.
@@ -131,6 +132,7 @@ default values.
 		element, and then (re-)define any special binds you need such as launching
 		your favourite terminal or application launcher. See rc.xml for an example.
 	-->
+
 	<keyboard>
 		<numlock>off</numlock>
 		<repeatRate>25</repeatRate>
@@ -255,7 +257,8 @@ default values.
 		<keybind key="A-Right">
 			<action name="MoveToEdge" direction="right" />
 		</keybind>
-<!--
+
+		<!--
 
 		<keybind key="XF86_AudioMute">
 			<action name="Execute" command="amixer -q -D pulse sset Master Toggle" />
@@ -281,7 +284,9 @@ default values.
 		<keybind key="A-C-period">
 			<action name="Execute" command="amixer -q -D pulse sset Master 1%+ unmute" />
 		</keybind>
-//-->
+
+		//-->
+
 		<keybind key="XF86_AudioMute">
 			<action name="Execute" command="pamixer --toggle-mute" />
 		</keybind>
@@ -361,6 +366,7 @@ default values.
 		element, and then (re-)define any special binds you need such as launching
 		a custom menu when right-clicking on your desktop. See rc.xml for an example.
 	-->
+
 	<mouse>
 
 		<!-- time is in ms -->
@@ -519,6 +525,7 @@ default values.
 			- accelProfile [flat|adaptive]
 			- tapButtonMap [lrm|lmr]
 	-->
+
 	<libinput>
 		<device category="">
 			<naturalScroll></naturalScroll>
