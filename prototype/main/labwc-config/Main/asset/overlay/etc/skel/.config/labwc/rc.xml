@@ -206,7 +206,7 @@ default values.
 			<action name="Execute" command="mate-volume-control" />
 		</keybind>
 		<keybind key="A-S-n">
-			<action name="Execute" command="kitty --class nmtui -T 'Network Settings' nmtui" />
+			<action name="Execute" command="kitty --class 'nmtui' --title 'Network Settings' nmtui" />
 		</keybind>
 		<keybind key="A-F3">
 			<action name="Execute" command="bemenu-run" />
