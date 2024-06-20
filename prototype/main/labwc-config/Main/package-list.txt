@@ -65,6 +65,18 @@ pamixer
 
 
 ##
+## ## Package / Qt / Style
+##
+
+qt5ct
+#qt6ct
+kvantum
+qt5-qtstyleplugins
+
+
+
+
+##
 ## ## Package / Theme / Papirus
 ##
 
