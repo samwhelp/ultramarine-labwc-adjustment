@@ -41,8 +41,8 @@
 | Config File Path |
 | --- |
 | [~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml) |
-| [~/.config/Thunar/uca.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/uca.xml) |
-| [~/.config/Thunar/accels.scm](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/accels.scm) |
+| [~/.config/Thunar/uca.xml](./asset/overlay/etc/skel/.config/Thunar/uca.xml) |
+| [~/.config/Thunar/accels.scm](./asset/overlay/etc/skel/..config/Thunar/accels.scm) |
 
 
 ### xfce4-terminal
@@ -50,6 +50,7 @@
 | Config File Path |
 | --- |
 | [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml) |
+| [~/.config/xfce4/terminal/accels.scm](./asset/overlay/etc/skel/.config/xfce4/terminal/accels.scm) |
 
 
 ### gtk2
@@ -81,7 +82,8 @@
 
 | Fedora Package |
 | --- |
-| [wayfire](https://packages.fedoraproject.org/pkgs/wayfire/wayfire/) |
+| [labwc](https://packages.fedoraproject.org/pkgs/labwc/labwc/) |
+| [hyprpaper](https://packages.fedoraproject.org/pkgs/hyprpaper/hyprpaper/) |
 | [wf-shell](https://packages.fedoraproject.org/pkgs/wf-shell/wf-shell/) |
 | [wlogout](https://packages.fedoraproject.org/pkgs/wlogout/wlogout/) |
 
