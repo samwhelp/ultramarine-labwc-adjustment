@@ -2,6 +2,9 @@
 
 # Labwc Config
 
+* [Config File Path](#config-file-path)
+* [Fedora Package](#fedora-package)
+* [Usage](#usage)
 
 
 
