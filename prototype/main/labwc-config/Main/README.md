@@ -36,23 +36,6 @@
 | [~/.config/wf-shell.ini](./asset/overlay/etc/skel/.config/wf-shell.ini) |
 
 
-### thunar
-
-| Config File Path |
-| --- |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml) |
-| [~/.config/Thunar/uca.xml](./asset/overlay/etc/skel/.config/Thunar/uca.xml) |
-| [~/.config/Thunar/accels.scm](./asset/overlay/etc/skel/..config/Thunar/accels.scm) |
-
-
-### xfce4-terminal
-
-| Config File Path |
-| --- |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml) |
-| [~/.config/xfce4/terminal/accels.scm](./asset/overlay/etc/skel/.config/xfce4/terminal/accels.scm) |
-
-
 ### gtk2
 
 | Config File Path |
@@ -74,6 +57,23 @@
 | Config File Path |
 | --- |
 | [~/.config/mimeapps.list](./asset/overlay/etc/skel/.config/mimeapps.list) |
+
+
+### thunar
+
+| Config File Path |
+| --- |
+| [~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml) |
+| [~/.config/Thunar/uca.xml](./asset/overlay/etc/skel/.config/Thunar/uca.xml) |
+| [~/.config/Thunar/accels.scm](./asset/overlay/etc/skel/..config/Thunar/accels.scm) |
+
+
+### xfce4-terminal
+
+| Config File Path |
+| --- |
+| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml) |
+| [~/.config/xfce4/terminal/accels.scm](./asset/overlay/etc/skel/.config/xfce4/terminal/accels.scm) |
 
 
 
