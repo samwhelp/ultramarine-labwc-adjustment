@@ -7,6 +7,23 @@
 
 ## Config File Path
 
+* [labwc](#labwc)
+* [wallpaper](#wallpaper)
+* [panel](#panel)
+* [default-cursor-theme](#default-cursor-theme)
+* [gtk2](#gtk2)
+* [gtk3](#gtk3)
+* [Trolltech.conf](#trolltech.conf)
+* [kvantum](#kvantum)
+* [qt5ct](#qt5ct)
+* [qt6ct](#qt6ct)
+* [mimeapps.list](#mimeapps.list)
+* [thunar](#thunar)
+* [xfce4-terminal](#xfce4-terminal)
+* [pcmanfm-qt](#pcmanfm-qt)
+* [qterminal](#qterminal)
+* [sakura](#sakura)
+
 
 ### labwc
 
@@ -36,6 +53,13 @@
 | [~/.config/wf-shell.ini](./asset/overlay/etc/skel/.config/wf-shell.ini) |
 
 
+### default-cursor-theme
+
+| Config File Path |
+| --- |
+| [~/.icons/default/index.theme](./asset/overlay/etc/skel/.icons/default/index.theme) |
+
+
 ### gtk2
 
 | Config File Path |
@@ -50,6 +74,34 @@
 | [~/.config/gtk-3.0/settings.ini](./asset/overlay/etc/skel/.config/gtk-3.0/settings.ini) |
 | [~/.config/gtk-3.0/gtk.css](./asset/overlay/etc/skel/.config/gtk-3.0/gtk.css) |
 | [~/.config/gtk-3.0/vte-terminal.css](./asset/overlay/etc/skel/.config/gtk-3.0/vte-terminal.css) |
+
+
+### Trolltech.conf
+
+| Config File Path |
+| --- |
+| [~/.config/Trolltech.conf](./asset/overlay/etc/skel/.config/Trolltech.conf) |
+
+
+### kvantum
+
+| Config File Path |
+| --- |
+| [~/.config/Kvantum/kvantum.kvconfig](./asset/overlay/etc/skel/.config/Kvantum/kvantum.kvconfig) |
+
+
+### qt5ct
+
+| Config File Path |
+| --- |
+| [~/.config/qt5ct/qt5ct.conf](./asset/overlay/etc/skel/.config/qt5ct/qt5ct.conf) |
+
+
+### qt6ct
+
+| Config File Path |
+| --- |
+| [~/.config/qt6ct/qt6ct.conf](./asset/overlay/etc/skel/.config/qt6ct/qt6ct.conf) |
 
 
 ### mimeapps.list
@@ -76,6 +128,27 @@
 | [~/.config/xfce4/terminal/accels.scm](./asset/overlay/etc/skel/.config/xfce4/terminal/accels.scm) |
 
 
+### pcmanfm-qt
+
+| Config File Path |
+| --- |
+| [~/.config/pcmanfm-qt/default/settings.conf](./asset/overlay/etc/skel/.config/pcmanfm-qt/default/settings.conf) |
+
+
+### qterminal
+
+| Config File Path |
+| --- |
+| [~/.config/qterminal.org/qterminal.ini](./asset/overlay/etc/skel/.config/qterminal.org/qterminal.ini) |
+
+
+### sakura
+
+| Config File Path |
+| --- |
+| [~/.config/sakura/sakura.conf](./asset/overlay/etc/skel/.config/sakura/sakura.conf) |
+
+
 
 
 ## Fedora Package
@@ -88,9 +161,13 @@
 | [wlogout](https://packages.fedoraproject.org/pkgs/wlogout/wlogout/) |
 
 
+
+
 ## Manual
 
-* [labwc-config](https://labwc.github.io/labwc-config.5.html)
+| Manual |
+| --- |
+| [man labwc-config](https://labwc.github.io/labwc-config.5.html) |
 
 
 
